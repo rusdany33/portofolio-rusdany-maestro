@@ -1,0 +1,11 @@
+{
+  "asset": "assets/audio/portfolio-quest.wav",
+  "durationSeconds": 32.0,
+  "sampleRate": 44100,
+  "channels": 2,
+  "bitsPerSample": 16,
+  "peak": 0.67999267578125,
+  "rms": 0.1665891106047852,
+  "clippedSamples": 0,
+  "sha256": "cf8a6fbae4f38115885766db8121b1693cb70037dc49dcafa3a3ddd22e4497d4"
+}

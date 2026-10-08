@@ -1,64 +1,56 @@
-# Pemeriksaan tugas portofolio
+# Pemeriksaan Portfolio Quest — Rusdany Maestro
 
-Nama: Rusdany Maestro · NIM: 202210370311406 · Tanggal: 8 Oktober 2026.
+Ditinjau pada 8 Oktober 2026. Versi utama menggunakan HTML, CSS, dan JavaScript sesuai pilihan eksplisit pemilik setelah ketentuan HTML/CSS murni dalam PDF dijelaskan. Tidak memakai framework atau library UI.
 
-## Hasil terhadap rubrik
+## Struktur dan validasi
 
-| Rubrik | Bobot | Implementasi dan hasil pemeriksaan |
-| --- | --- | --- |
-| Struktur dan semantik HTML | 40% | HTML5 dengan bahasa Indonesia, satu `main` dan `h1`, hierarki `h2`/`h3`, bagian bernama, `header`, `nav`, `section`, `article`, `figure`, `dl`, `ol`/`ul`, `time`, `address`, dan `footer`. Validator tidak menemukan error atau peringatan. |
-| CSS dan layout | 30% | Satu stylesheet eksternal dengan daftar isi, variabel desain, sistem warna krem/hijau/gelap, tipografi konsisten, Grid/Flexbox, breakpoint, fokus keyboard, preferensi gerak, dan gaya cetak. CSS juga lolos validator. |
-| Responsivitas | 30% | Diperiksa pada 11 lebar layar. Tidak ditemukan overflow horizontal, teks keluar viewport, atau ID tujuan navigasi yang hilang. Screenshot desktop dan mobile disertakan. |
+- Nu HTML Checker **26.10.7 (8049d4d)** memeriksa `index.html` dan `assets/css/style.css`: **0 error, 0 warning**. Hasil mentah: `validasi-html-css.json`.
+- `node --check assets/js/game.js`: exit code **0**.
+- DOM memiliki satu `main`, satu `h1`, bahasa `id`, tanpa ID ganda, tanpa tautan fragmen lokal yang rusak, dan tanpa image yang gagal dimuat. Pixel art dibuat dengan CSS dan disembunyikan dari pembaca layar sebagai dekorasi.
+- Identitas/NIM/email, tautan GitHub/LinkedIn, lima pengalaman profesional yang dikonfirmasi pemilik, dua organisasi, tiga repositori, pendidikan UMM, dan SangSurya Plus 2023–2024 tersedia. Uraian rinci pekerjaan atau hasil bisnis yang belum diberikan pemilik tidak direka.
+- Sesi pemeriksaan utama tidak mencatat JavaScript page error: `kesalahan-browser.json`.
 
-## Validator dokumen
+## Responsivitas
 
-Alat: [Nu Html Checker](https://github.com/validator/validator), versi `26.10.7 (8049d4d)`, dijalankan secara lokal dengan Java. Berkas yang diperiksa adalah `index.html` dan `assets/css/style.css`, dengan opsi pemeriksaan CSS.
+Layar Start dan halaman setelah masuk diperiksa pada **320, 360, 375, 390, 640, 768, 860, 1024, 1280, 1440, dan 1920 piksel**. Seluruh 22 pemeriksaan tidak memiliki overflow horizontal atau elemen teks yang melebar melewati viewport.
 
-```text
---stdout --format json --also-check-css index.html assets/css/style.css
-Exit code: 0
-{"version":"26.10.7 (8049d4d)","messages":[]}
-```
+Hasil mentah: `responsif-start.json` dan `pemeriksaan-responsif.json`. Pada mobile 390 px, detail proyek yang dibuka juga tidak menimbulkan overflow (`details-mobile.json`). Tangkapan layar mobile memakai viewport 390 × 844; desktop 1440 × 900.
 
-Hasil asli disimpan pada [validasi-html-css.json](validasi-html-css.json). Tidak ada pesan yang disembunyikan menggunakan filter.
+## Interaksi dan audio
 
-## Pemeriksaan layar
+Pemeriksaan dilakukan melalui browser Chromium dan input keyboard/pointer:
 
-Browser: Google Chrome melalui agent-browser. Tinggi viewport untuk pemeriksaan ukuran adalah 900 piksel; tangkapan layar utama menggunakan 1440 × 960 dan 390 × 844.
+| Alur | Hasil |
+| --- | --- |
+| Pembukaan halaman | Dialog Start terbuka; musik paused, waktu 0, belum dimuat, volume 25%. |
+| Fokus tombol Start + Enter | Dialog menutup; fokus pindah ke judul utama; WAV didekode sebagai 32 detik; waktu audio bergerak dan tombol menjadi Pause. |
+| Pause kemudian Play | Audio benar-benar berhenti lalu berlanjut; label/status mengikuti keadaan audio. |
+| Volume melalui keyboard Home/End | Volume menjadi 0/100%; output dan status suara mengikuti nilainya. |
+| Escape dari layar Start | Masuk tanpa audio; fokus ke judul; halaman dapat dijelajahi. |
+| Menonaktifkan “Musik saat mulai” + Start | Masuk tanpa audio; waktu tetap 0. |
+| Detail proyek dengan Enter | Elemen `details` membuka melalui keyboard. |
+| Menu Experience | Navigasi menuju bagian yang benar, di bawah header; kelima perusahaan dan LinkedIn sesuai konfirmasi. |
+| Preferensi reduced motion | Browser melaporkan preferensi aktif; animasi karakter none dan scroll behavior auto. |
 
-| Lebar viewport | Overflow horizontal | Teks keluar layar | Anchor bagian rusak |
-| ---: | :---: | ---: | ---: |
-| 320 | Tidak | 0 | 0 |
-| 360 | Tidak | 0 | 0 |
-| 375 | Tidak | 0 | 0 |
-| 390 | Tidak | 0 | 0 |
-| 640 | Tidak | 0 | 0 |
-| 768 | Tidak | 0 | 0 |
-| 860 | Tidak | 0 | 0 |
-| 1024 | Tidak | 0 | 0 |
-| 1280 | Tidak | 0 | 0 |
-| 1440 | Tidak | 0 | 0 |
-| 1920 | Tidak | 0 | 0 |
+Hasil mentah: `game-initial.json`, `game-entered.json`, `interaksi-game.json`, `masuk-tanpa-suara.json`, `details-keyboard.json`, `navigasi-pengalaman.json`, dan `gerak-dikurangi.json`.
 
-Data asli mencakup viewport, heading, ID, tautan, stylesheet, dan jumlah script pada [pemeriksaan-responsif.json](pemeriksaan-responsif.json). Ilustrasi dekoratif berada di dalam container yang memotong bentuknya secara sengaja; informasi utama tetap berada di dalam layar.
+Auditor kode independen juga menguji penolakan `play()` dengan `NotAllowedError` dan audio rusak (media error code 4). Kedua kondisi memberikan pesan yang sesuai, mengaktifkan kembali tombol, dan menampilkan pemutar native. Penjedaan saat tab tersembunyi serta perhitungan area yang dikunjungi ditinjau dari kode. Gaya cetak ditinjau secara statis; laporan ini tidak mengklaim pengujian PDF cetak.
 
-## Interaksi dan penggunaan lokal
+Musik adalah komposisi prosedural asli: 32 detik, 120 BPM, stereo PCM 44.1 kHz/16-bit. WAV dibuka kembali untuk pemeriksaan: peak 0.67999, RMS 0.16659, **0 sampel clipping**. Aset memakai loop; metadata dan SHA-256 tersimpan pada `audio-asset.json`.
 
-- Tab pertama menampilkan tautan `Lewati ke konten utama` dengan outline yang terlihat. Enter melewati navigasi, dan Tab berikutnya menuju `Jelajahi karya` di konten utama.
-- Panel `Ruang lingkup proyek` membuka dan menutup dengan Enter; pointer click juga membukanya. Interaksi memakai elemen HTML `details`/`summary` tanpa JavaScript.
-- Semua ID unik. Seluruh tautan ke bagian halaman memiliki target yang ada. Email menuju `mailto:rusdany33@gmail.com`; URL GitHub dan LinkedIn sesuai data pengguna.
-- Tautan tab baru memiliki `rel="noopener noreferrer"` dan keterangan pembaca layar. Ilustrasi CSS bersifat dekoratif dan memakai `aria-hidden="true"`.
-- `index.html` juga dibuka langsung melalui `file:///D:/web/portofolio/index.html`: stylesheet lokal diterapkan, tidak ada script, tidak ada permintaan resource HTTP, dan tidak ada overflow pada 390 piksel.
-- Tidak ada framework CSS, CDN, font remote, gambar remote, dependensi aplikasi, inline style, atau proses build pada halaman tugas.
-- Peninjauan kode independen telah memeriksa kesesuaian struktur, identitas, sumber, dan tautan. Peninjauan visual independen memeriksa desktop, tablet, dan layar sempit serta interaksi detail proyek.
+## Berkas lokal dan progressive enhancement
 
-## Tangkapan layar
+Pembukaan langsung `file:///D:/web/portofolio/index.html` berhasil memuat CSS, font lokal, JavaScript, serta musik. Font Press Start 2P melaporkan loaded, audio mencapai readyState 4 tanpa error, dan tidak ada resource eksternal (`file-lokal.json`). Website tidak membutuhkan server/build/CDN untuk digunakan.
 
-- [Desktop — tampilan awal](desktop.png)
-- [Desktop — halaman lengkap](desktop-lengkap.png)
-- [Mobile — tampilan awal](mobile.png)
-- [Mobile — halaman lengkap](mobile-lengkap.png)
+Fallback ketika script gagal dimuat diuji oleh auditor saat HTML/CSS game sudah tersedia tetapi `game.js` belum ada. Dialog tetap tertutup; konten dan pemutar native terlihat; kontrol custom tersembunyi. **Metode ini menguji kegagalan aset JS, bukan menonaktifkan mesin JavaScript seluruh browser.** Catatan/metode lengkap: `tanpa-javascript.json`.
 
-## Batas pemeriksaan
+## Bukti visual
 
-Pemeriksaan responsivitas dilakukan dengan viewport browser, bukan setiap model perangkat fisik. Gaya cetak tersedia dalam CSS, tetapi laporan ini tidak menyatakan validasi semua printer atau browser. LinkedIn dapat meminta login untuk menampilkan profil. Pemeriksaan teknis dan kesesuaian rubrik tidak menjamin keputusan nilai akhir dosen.
+Evaluasi desain independen menghasilkan **PASS** pada putaran pertama: tema pixel RPG konsisten di desktop/tablet/mobile, layar Start muat pada 375 × 812, pengalaman tampil jelas, serta alur musik dan keyboard berjalan. Tidak ada perbaikan wajib.
+
+- `start-desktop.png`, `start-mobile.png`: layar pembuka.
+- `desktop.png`, `mobile.png`: halaman setelah masuk.
+- `desktop-lengkap.png`, `mobile-lengkap.png`: seluruh halaman.
+- `experience.png`: bagian pengalaman profesional.
+
+`integritas-berkas.json` mencatat ukuran dan SHA-256 berkas source/aset. Versi tugas HTML/CSS awal tetap tersedia pada commit `ce4236d08f646971583c26b0dc8f2a2976ec4839` di GitHub dan ZIP awal di folder kerja.

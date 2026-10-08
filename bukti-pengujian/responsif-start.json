@@ -132,8 +132,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 305,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 320,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -276,8 +278,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 345,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 360,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -420,8 +424,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 360,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 375,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -564,8 +570,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 375,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 390,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -708,8 +716,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 625,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 640,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -852,8 +862,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 753,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 768,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -996,8 +1008,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 845,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 860,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -1140,8 +1154,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 1009,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 1024,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -1284,8 +1300,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 1265,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 1280,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -1428,8 +1446,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 1425,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 1440,
     "scriptSources": [
       "assets/js/game.js"
     ],
@@ -1572,8 +1592,10 @@
     "imagesMissingAlt": 0,
     "invalidAnchors": [],
     "mainCount": 1,
-    "openDialogs": [],
-    "pageWidth": 1905,
+    "openDialogs": [
+      "start-screen"
+    ],
+    "pageWidth": 1920,
     "scriptSources": [
       "assets/js/game.js"
     ],

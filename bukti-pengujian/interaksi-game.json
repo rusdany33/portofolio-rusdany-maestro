@@ -1,0 +1,52 @@
+{
+  "afterStart": {
+    "currentTime": 1.072305,
+    "dialogOpen": false,
+    "duration": 32,
+    "focus": "hero-title",
+    "label": "Pause",
+    "paused": false,
+    "status": "Musik diputar",
+    "volume": 0.25
+  },
+  "afterPause": {
+    "currentTime": 2.786596,
+    "dialogOpen": false,
+    "duration": 32,
+    "focus": "music-toggle",
+    "label": "Play",
+    "paused": true,
+    "status": "Musik dijeda",
+    "volume": 0.25
+  },
+  "afterResume": {
+    "currentTime": 3.262722,
+    "dialogOpen": false,
+    "duration": 32,
+    "focus": "music-toggle",
+    "label": "Pause",
+    "paused": false,
+    "status": "Musik diputar",
+    "volume": 0.25
+  },
+  "zeroVolume": {
+    "currentTime": 4.236632,
+    "dialogOpen": false,
+    "duration": 32,
+    "focus": "music-volume",
+    "label": "Pause",
+    "paused": false,
+    "status": "Musik diputar · tanpa suara",
+    "volume": 0
+  },
+  "fullVolume": {
+    "currentTime": 4.926407,
+    "dialogOpen": false,
+    "duration": 32,
+    "focus": "music-volume",
+    "label": "Pause",
+    "paused": false,
+    "status": "Musik diputar",
+    "volume": 1
+  }
+}

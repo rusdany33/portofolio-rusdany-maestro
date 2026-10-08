@@ -1,10 +1,57 @@
-[
-  {
-    "Path": "D:\\web\\portofolio\\index.html",
-    "Hash": "5B1961956DF95AC900E567F89D2B9321D4CDD0788A2AFDE1FB7B9E5C43525CFA"
-  },
-  {
-    "Path": "D:\\web\\portofolio\\assets\\css\\style.css",
-    "Hash": "F9569485131115AF478C2E9DEDCF9B05E6960B2E880403333DB9932610C164C0"
-  }
-]
+{
+  "date": "2026-10-08",
+  "version": "Portfolio Quest 8-bit",
+  "hashScope": "Actual packaged workspace bytes. Git may normalize line endings of text files on other platforms.",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 27945,
+      "sha256": "9e26977bd7e662027bc36c94f375ad2f8c76e5506d88684ce8d1e469a752330d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2916,
+      "sha256": "bf316bbedbf892f7379935944b690cc0e7fee4230c258b052baeb1d6c70e6dc2"
+    },
+    {
+      "path": "SUMBER-DATA.md",
+      "bytes": 5412,
+      "sha256": "52a543cec484953540b7e6c57b9883ab7791bf3ee406c70e699e871480c671f4"
+    },
+    {
+      "path": "assets/audio/portfolio-quest.wav",
+      "bytes": 5644844,
+      "sha256": "cf8a6fbae4f38115885766db8121b1693cb70037dc49dcafa3a3ddd22e4497d4"
+    },
+    {
+      "path": "assets/audio/README.md",
+      "bytes": 1219,
+      "sha256": "2737d0a8a0bb917aa856f8836df9faa969e1e70154e546214959de37cff9b2c6"
+    },
+    {
+      "path": "assets/css/style.css",
+      "bytes": 54603,
+      "sha256": "00399940f23dc5dd73bc25d3dcb0a388c37d4d6c43616bc9218f28ae1475157a"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4506,
+      "sha256": "aa17c06ad829655830e2eacd07a7e0eedca261582e693c3c33118df6fd1ac987"
+    },
+    {
+      "path": "assets/fonts/PressStart2P-Regular.ttf",
+      "bytes": 118204,
+      "sha256": "034c77f1f05ec89421e4a63f0e3a4ca1ecf852cc6d2bf611f126f275728e017d"
+    },
+    {
+      "path": "assets/fonts/README.md",
+      "bytes": 535,
+      "sha256": "e10ac0aa7edd536bd20bed5c4161288d990a595d31e9adba4aedc36934cf18a3"
+    },
+    {
+      "path": "assets/js/game.js",
+      "bytes": 6759,
+      "sha256": "56f082549c08e8f535abeabfe4341f2f83bb5c0accb8504255a02c6db7bdaa69"
+    }
+  ]
+}

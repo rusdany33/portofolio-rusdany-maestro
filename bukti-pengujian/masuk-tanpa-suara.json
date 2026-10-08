@@ -1,0 +1,16 @@
+{
+  "escape": {
+    "currentTime": 0,
+    "dialogOpen": false,
+    "focus": "hero-title",
+    "paused": true,
+    "status": "Musik dijeda · masuk tanpa suara"
+  },
+  "uncheckedStart": {
+    "currentTime": 0,
+    "dialogOpen": false,
+    "focus": "hero-title",
+    "paused": true,
+    "status": "Musik dijeda · masuk tanpa suara"
+  }
+}

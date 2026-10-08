@@ -1,0 +1,146 @@
+{
+  "audio": {
+    "currentTime": 0,
+    "duration": null,
+    "error": null,
+    "loop": true,
+    "paused": true,
+    "readyState": 0,
+    "src": "http://127.0.0.1:8765/assets/audio/portfolio-quest.wav",
+    "volume": 0.25
+  },
+  "brokenImages": [],
+  "documentLanguage": "id",
+  "documentTitle": "Rusdany Maestro — Portfolio Quest",
+  "duplicateIds": [],
+  "externalLinks": [
+    {
+      "text": "Semua repositori ↗ (dibuka di tab baru)",
+      "url": "https://github.com/rusdany33"
+    },
+    {
+      "text": "Buka repositori ↗ Alumni Tracker (dibuka di tab baru)",
+      "url": "https://github.com/rusdany33/tracker-alumni"
+    },
+    {
+      "text": "Buka repositori ↗ Sustainova (dibuka di tab baru)",
+      "url": "https://github.com/rusdany33/Sustainova"
+    },
+    {
+      "text": "Buka repositori ↗ E-vote Kahmi (dibuka di tab baru)",
+      "url": "https://github.com/rusdany33/E-vote-Kahmi"
+    },
+    {
+      "text": "GitHub @rusdany33↗ (dibuka di tab baru)",
+      "url": "https://github.com/rusdany33"
+    },
+    {
+      "text": "LinkedIn Rusdany Maestro↗ (dibuka di tab baru)",
+      "url": "https://www.linkedin.com/in/rusdany-maestro-080533394/"
+    }
+  ],
+  "externalRuntimeResources": [],
+  "h1Count": 1,
+  "headings": [
+    {
+      "level": 1,
+      "text": "RusdanyMaestro."
+    },
+    {
+      "level": 2,
+      "text": "Portfolio Quest"
+    },
+    {
+      "level": 2,
+      "text": "Di balikkarakter."
+    },
+    {
+      "level": 2,
+      "text": "Bekal berpetualang."
+    },
+    {
+      "level": 3,
+      "text": "Frontend"
+    },
+    {
+      "level": 3,
+      "text": "Backend"
+    },
+    {
+      "level": 3,
+      "text": "Robotika"
+    },
+    {
+      "level": 2,
+      "text": "Ide yang dijalankan."
+    },
+    {
+      "level": 3,
+      "text": "Alumni Tracker"
+    },
+    {
+      "level": 3,
+      "text": "Sustainova"
+    },
+    {
+      "level": 3,
+      "text": "E-vote Kahmi"
+    },
+    {
+      "level": 2,
+      "text": "Perjalanan profesional."
+    },
+    {
+      "level": 3,
+      "text": "Project Manager"
+    },
+    {
+      "level": 3,
+      "text": "Chief Product Officer"
+    },
+    {
+      "level": 3,
+      "text": "Project / Product Contributor"
+    },
+    {
+      "level": 3,
+      "text": "Support Team — Robotics Competition"
+    },
+    {
+      "level": 3,
+      "text": "Administrative Systems Intern"
+    },
+    {
+      "level": 3,
+      "text": "Organisasi"
+    },
+    {
+      "level": 2,
+      "text": "Fondasi perjalanan."
+    },
+    {
+      "level": 3,
+      "text": "Informatika"
+    },
+    {
+      "level": 2,
+      "text": "Petualanganberikutnya?"
+    }
+  ],
+  "horizontalOverflow": false,
+  "imagesMissingAlt": 0,
+  "invalidAnchors": [],
+  "mainCount": 1,
+  "openDialogs": [
+    "start-screen"
+  ],
+  "pageWidth": 1440,
+  "scriptSources": [
+    "assets/js/game.js"
+  ],
+  "styleSources": [
+    "assets/css/style.css"
+  ],
+  "textOverflow": [],
+  "viewport": 1440
+}

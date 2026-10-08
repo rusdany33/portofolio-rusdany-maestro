@@ -1,0 +1,20 @@
+{
+  "test": "Progressive enhancement when game.js fails to load",
+  "url": "http://127.0.0.1:8765/index.html",
+  "date": "2026-10-08",
+  "browser_session": "game-code-audit",
+  "method": "Loaded the new Portfolio Quest HTML/CSS before assets/js/game.js existed on disk. The external script could not execute. Queried native dialog/audio properties and visible client rectangles, and inspected the accessibility snapshot.",
+  "limitations": "This verifies failure of the external JavaScript asset. JavaScript execution was enabled in the browser; this was not a browser-wide JavaScript-disabled test.",
+  "result": "PASS",
+  "observations": {
+    "dialogOpen": false,
+    "mainVisible": true,
+    "nativeAudioControls": true,
+    "audioVisible": true,
+    "customControlsVisible": false,
+    "professionalRoles": 5,
+    "organizations": 2,
+    "h1": 1,
+    "main": 1
+  }
+}
