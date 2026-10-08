@@ -8,6 +8,10 @@ Nama: Rusdany Maestro · NIM: 202210370311406 · Informatika, Universitas Muhamm
 
 ## Membuka halaman
 
+**Website online:** [Portfolio Quest — Rusdany Maestro](https://rusdany33.github.io/portofolio-rusdany-maestro/).
+
+Hosting menggunakan [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) untuk repositori publik. Sumber publikasi: branch `main`, folder root (`/`). Berkas `.nojekyll` membuat HTML dan aset disajikan langsung. Pembaruan yang di-push ke `main` diterbitkan otomatis; tunggu proses Pages selesai sebelum memeriksa perubahan. Tidak perlu menjalankan komputer/server lokal untuk mengakses URL online.
+
 Ekstrak ZIP lalu buka `index.html` di Chrome, Edge, atau Firefox. Tidak perlu instalasi atau build. Tekan **Press Start** untuk masuk; suara mulai melalui interaksi ini. Gunakan kontrol musik untuk menjeda/menyalakan audio dan mengatur volume. Konten tetap dapat dibaca jika JavaScript dinonaktifkan.
 
 Untuk server lokal, jalankan dari folder ini:

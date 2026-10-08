@@ -10,13 +10,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 2916,
-      "sha256": "bf316bbedbf892f7379935944b690cc0e7fee4230c258b052baeb1d6c70e6dc2"
+      "bytes": 3486,
+      "sha256": "2332d54b22aec13c12ebc030387bc4e1bbc1f0f2d0208d81f886f0b60dd29020"
     },
     {
       "path": "SUMBER-DATA.md",
       "bytes": 5412,
       "sha256": "52a543cec484953540b7e6c57b9883ab7791bf3ee406c70e699e871480c671f4"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "assets/audio/portfolio-quest.wav",
